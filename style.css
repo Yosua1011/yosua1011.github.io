@@ -17,14 +17,12 @@ body {
 	margin-top: 5px;
 	margin-left: 10px;
 	float:left;
-	border:1px solid red;
 }
 
 .navigation {
   overflow-y: auto;
   width: 20%;
   z-index: 1000;
-  border:1px solid blue;
   float: right;
 }
 
