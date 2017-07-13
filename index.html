@@ -1,79 +1,64 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title> My First GitHub Website </title>
-    <link href="style.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400, 600" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
   </head>
-  <body>
-    <header class="header">
-      <div class="logo">
-        <img id="logo" src="img/sample-logo.png" width="200px" />
+<body>
+
+  <div class="header">
+    <div class="container">
+      <ul class="nav">
+        <li>About</li>
+        <li>Work</li>
+        <li>Team</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="jumbotron">
+    <div class="container">  
+      <div class="main">
+        <h1>We are Broadway</h1>
+        <a class="btn-main" href="#">Get started</a>
       </div>
-      <nav> <!-- ini menu -->
-        <div class="navigation">
-          <ul>
-            <a href="#"><li>Home</li></a>
-            <a href="#"><li>About Me</li></a>
-            <a href="#"><li>Contact</li></a>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <section>
-      <h1 id="maintitle">Featured Posts </h1>
-      <div id="article-list">
-	     <article>
-	        <a href=""><h3>Hacktiv8-Phase 0: First Day</h3></a>
-	        <p>
-	          Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. Et sea quem sint, nam in minim voluptatibus. Etiam placerat eam in.
-	        </p>
-	      </article>
-	      <article>
-	        <a href=""><h3>Hacktiv8-Phase 0: Second Day</h3></a>
-	        <p>
-	          Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. Et sea quem sint, nam in minim voluptatibus. Etiam placerat eam in.
-	        </p>
-	      </article>
-	      <article>
-	        <a href=""><h3>Hacktiv8-Phase 0: Third Day</h3></a>
-	        <p>
-	          Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. Et sea quem sint, nam in minim voluptatibus. Etiam placerat eam in.
-	        </p>
-	      </article>
-	      <article>
-	        <a href=""><h3>Lorem Post 4</h3></a>
-	        <p>
-	          Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. Et sea quem sint, nam in minim voluptatibus. Etiam placerat eam in.
-	        </p>
-	      </article>
-	      <article>
-	        <a href=""><h3>Lorem Post 5</h3></a>
-	        <p>
-	          Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. Et sea quem sint, nam in minim voluptatibus. Etiam placerat eam in.
-	        </p>
-	      </article>
-	      <article>
-	        <a href=""><h3>Lorem Post 6</h3></a>
-	        <p>
-	          Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. Et sea quem sint, nam in minim voluptatibus. Etiam placerat eam in.
-	        </p>
-	      </article>
-	      <article>
-	        <a href=""><h3>Lorem Post 7</h3></a>
-	        <p>
-	          Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. Et sea quem sint, nam in minim voluptatibus. Etiam placerat eam in.
-	        </p>
-	      </article>
-	      <article>
-	        <a href=""><h3>Lorem Post 8</h3></a>
-	        <p>
-	          Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. Et sea quem sint, nam in minim voluptatibus. Etiam placerat eam in.
-	        </p>
-	      </article>
-       </div>
-    </section>
-    <footer>
-      <h5>copyright &copy; 2016 by HACKFOX</h5>
-    </footer>
-  </body>
+    </div>
+  </div>
+
+  <div class="supporting">
+    <div class="container">
+
+      <div class="col">
+        <img src="https://s3.amazonaws.com/codecademy-content/projects/broadway/design.svg">
+        <h2>Design</h2>
+        <p>Make your projects look great and interact beautifully.</p>
+        <a class="btn-default" href="#">Learn more</a>
+      </div>
+
+      <div class="col">
+        <img src="https://s3.amazonaws.com/codecademy-content/projects/broadway/develop.svg">
+        <h2>Develop</h2>
+        <p>Use modern tools to turn your design into a web site</p>
+        <a class="btn-default" href="#">Learn more</a>
+      </div>
+
+      <div class="col">
+        <img src="https://s3.amazonaws.com/codecademy-content/projects/broadway/deploy.svg">
+        <h2>Deploy</h2>
+        <p>Use modern tools to turn your design into a web site</p>
+        <a class="btn-default" href="#">Learn more</a>
+      </div>
+
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <p>&copy; Broadway 2014</p>
+    </div>
+  </div>
+
+</body>
 </html>
