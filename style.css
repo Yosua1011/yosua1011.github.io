@@ -1,0 +1,88 @@
+body { 
+  background-image: url("img/sample-background.png");
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+	background-color: #FFF;
+	height: 47px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 100000;
+}
+
+.logo {
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.navigation {
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  right: 15px;
+  width: 100%;
+  word-spacing: 1.5em;
+  z-index: 1000;
+  text-align: right;
+  float: right;
+}
+
+li {
+	display: inline-block;
+	list-style: none;
+	cursor: pointer; 
+	cursor: hand;
+}
+
+#maintitle {
+	font-size: 30pt;
+	text-align: center;
+	font-family: "Proxima Nova", serif;
+	font-weight: bold;
+	top: 70px;
+	margin: 10px auto 20px auto;
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+}
+
+h3 {
+	color: #429bf4;
+	font-style: regular;
+}
+
+h5 {
+	text-align: center;
+	padding-top: 20px;
+	color: white;
+}
+
+p {
+	font-family: sans-serif;
+}
+
+#article-list {
+  background-color: #FFF;
+  border: 2px solid #FFF;
+  border-radius: 10px;
+  margin: 90px auto 20px auto;
+  padding: 10px 0px 10px 0px;
+  width: 68%;
+}
+
+article {
+	margin-left: 10px;
+}
+
+footer {
+	background-color: #000;
+	height: 60px;
+	position: relative;
+	bottom: 0px;
+	width: 100%;
+}
