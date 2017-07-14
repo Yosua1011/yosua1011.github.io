@@ -15,6 +15,10 @@ body {
   height: auto;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
 .container {
   max-width: 940px;
   margin: 0 auto;
@@ -110,7 +114,7 @@ body {
 }
 
 .supporting {
-  padding-top: 150px;
+  padding-top: 170px;
   padding-bottom: 100px;
 }
 
@@ -151,6 +155,39 @@ body {
   position: absolute;
   bottom: 0px;
   width: 100%;
+}
+
+#target {
+
+}
+
+.conn {
+  padding-top: 180px;
+  padding-bottom: 300px;
+  margin-bottom: 50px;
+  background-color: #000;
+}
+
+.conn .col {
+  color: #fff;
+  float: left;
+  position: relative;
+  height: 300px;
+  width: 33%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.conn .col img{
+  width: 150px;
+}
+
+#linkedin {
+  margin-left: 200px;
+}
+
+#insta {
+  margin-left: 200px;
 }
 
 .footer p {
