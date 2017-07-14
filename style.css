@@ -58,7 +58,7 @@ a {
 
 .main { 
   position: relative; 
-  top: 105px; 
+  top: 180px; 
   right: 35px; 
   text-align: center; 
 } 
@@ -163,7 +163,7 @@ a {
 
 .conn {
   padding-top: 180px;
-  padding-bottom: 300px;
+  padding-bottom: 400px;
   margin-bottom: 50px;
   background-color: #000;
 }
@@ -172,7 +172,7 @@ a {
   color: #fff;
   float: left;
   position: relative;
-  height: 300px;
+  height: 400px;
   width: 33%;
   font-family: 'Raleway', sans-serif;
   text-align: center;
@@ -180,14 +180,22 @@ a {
 
 .conn .col img{
   width: 150px;
+  margin-top: 20px;
 }
 
 #linkedin {
-  margin-left: 200px;
+  position: relative;
+  margin-left: 30px;
 }
 
 #insta {
-  margin-left: 200px;
+  position: relative;
+  margin-left: 100px;
+}
+
+#gmail {
+  position: relative;
+  margin-left: 100px;
 }
 
 .footer p {
