@@ -161,6 +161,10 @@ a {
 
 }
 
+#linkedin {
+  
+}
+
 .conn {
   padding-top: 180px;
   padding-bottom: 400px;
@@ -178,24 +182,14 @@ a {
   text-align: center;
 }
 
-.conn .col img{
+.conn img{
   width: 150px;
   margin-top: 20px;
 }
 
-#linkedin {
-  position: relative;
-  margin-left: 30px;
-}
-
-#insta {
-  position: relative;
-  margin-left: 100px;
-}
-
-#gmail {
-  position: relative;
-  margin-left: 100px;
+.conn h3 {
+  font-weight: 600;
+  font-size: 23px;
 }
 
 .footer p {
