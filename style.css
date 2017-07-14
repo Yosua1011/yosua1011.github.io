@@ -1,6 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 .container {
@@ -142,15 +143,13 @@ html, body {
 .footer {
   background-color: #333;
   color: #fff;
-  padding: 10px 0;
-  position: relative;
-  height: 50px;
+  padding: 3px 50%;
+  position: absolute;
+  bottom: 0px;
 }
 
 .footer p {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
-  position: absolute;
-  left: 80px;
-  bottom: 2px;
+  margin-left: -600px;
 }
