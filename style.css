@@ -22,9 +22,9 @@ body {
 }
 
 .jumbotron {
-  background: url(img/jakarta.jpg) no-repeat center center;
+  background: url(img/jakartaback.png) no-repeat center center;
   background-size: cover;
-  height: 800px;
+  height: 610px;
 }
 
 .header {
@@ -52,23 +52,12 @@ body {
   cursor: hand;
 }
 
-.main {
-  position: relative;
-  top: 105px;
-  right: 35px;
-  text-align: center;
-}
-
-.main h1 {
-  color: #0b336b;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 100px;
-  letter-spacing: 0.08em;
-  margin-top: 0;
-  margin-bottom: 80px;
-  text-transform: uppercase;
-}
+.main { 
+  position: relative; 
+  top: 105px; 
+  right: 35px; 
+  text-align: center; 
+} 
 
 .main h2 {
   color: #0b336b;
@@ -85,16 +74,21 @@ body {
   text-transform: uppercase;
 }
 
+.opac {
+  opacity: 0.5;
+}
+
 .btn-main {
   position: relative;
-  top: 90px;
-  background-color: #333;
-  color: #fff;
+  top: 250px;
+  left: 470px;
+  border: 2px solid black;
+  color: #FFF;
   font-family: 'Raleway', sans-serif;
-  font-weight: 600;
+  font-weight: 1000;
   font-size: 18px;
   letter-spacing: 1.3px;
-  padding: 16px 40px;
+  padding: 12px 20px;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -116,7 +110,7 @@ body {
 }
 
 .supporting {
-  padding-top: 80px;
+  padding-top: 150px;
   padding-bottom: 100px;
 }
 
