@@ -149,13 +149,49 @@ a {
   clear: both;
 }
 
-.footer {
-  background-color: #333;
-  color: #fff;
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
+.abbot {
+  padding-top: 100px;
+  padding-bottom: 90px;
+  margin-bottom: 0px;
+  background: url(img/abbot.jpg) no-repeat center center;
+  background-size: cover;
+  height: 500px;
 }
+
+#abbotme {
+  
+}
+
+.abbot .col {
+  color: #fff;
+  position: relative;
+  height: 350px;
+  width: 350px;
+  margin-top: -250px;
+}
+
+.abbot img{
+  border-style: dashed;
+  width: 350px;
+}
+
+.abbottext {
+  margin-left: 500px;
+  margin-top: 100px;
+  padding: 0px 30px 0px 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 23px;
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  background-color: black;
+  opacity: 0.7;
+}
+
+.abbot p {
+  font-style: italic;
+}
+
 
 #target {
 
@@ -190,6 +226,14 @@ a {
 .conn h3 {
   font-weight: 600;
   font-size: 23px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
 }
 
 .footer p {
