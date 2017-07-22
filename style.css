@@ -241,3 +241,37 @@ a {
   font-size: 20px;
   text-align: center;
 }
+
+#week1 {
+  background: url(img/week1.jpg) no-repeat center center;
+  background-size: cover;
+  height: 610px;
+}
+
+.weektitle {
+  background-color: grey; 
+  width: 70%;
+  position: relative; 
+  top: 20px;
+  left: 200px; 
+  text-align: center;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 1; 
+} 
+
+.paragraph {
+  margin-top: 150px;
+  padding: 0px 30px 0px 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 23px;
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  background-color: black;
+  opacity: 1;
+}
