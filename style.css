@@ -243,7 +243,7 @@ a {
 }
 
 #week1 {
-  background: url(img/week1.jpg) no-repeat center center;
+  background: url(img/week_1.png) no-repeat;
   background-size: cover;
   height: 610px;
 }
@@ -252,7 +252,7 @@ a {
   background-color: grey; 
   width: 70%;
   position: relative; 
-  top: 20px;
+  top: 43px;
   left: 200px; 
   text-align: center;
   color: #fff;
